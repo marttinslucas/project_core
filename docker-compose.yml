@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  api-sentimentos:
+    container_name: api-sentimentos
+    image: api-sentimentos
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - ./service:/code/service
+    networks:
+      - backend
+    ports:
+      - 9000:9000
+
+networks:
+  backend:
+    driver: bridge
