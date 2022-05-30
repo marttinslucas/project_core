@@ -1,2 +1,4 @@
-DS_Store
 **.pdf
+**.ipynb
+env/
+.DS_Store

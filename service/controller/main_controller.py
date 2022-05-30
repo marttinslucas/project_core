@@ -17,7 +17,7 @@ class MainService(Resource):
     def post(self) -> dict:
         try:
             dados_request = request.get_json()
-            main_service = VaderService()
+            main_service = translateService()
             resp = main_service.executar_rest(dados_request)
             response = objResponse.send_success(data=resp, messages=mensagens.SUCESSO_PREDICT, status=codeHttp.SUCCESS_200)
 
