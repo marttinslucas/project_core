@@ -1,8 +1,8 @@
 # Mensagens log API
 INICIO_LOAD_SERVICO = "Carregando o servico..."
 FIM_LOAD_MODEL = "Servico carregado."
-INICIO_PREDICT = "Iniciando a classificacao..."
-FIM_PREDICT = "Fim do tratamento."
+INICIO_PREDICT = "Iniciando a tradução..."
+FIM_PREDICT = "Fim da tradução."
 
 # Error Business #
 ERROR_GENERIC = "Ocorreu um erro generico"
@@ -14,6 +14,6 @@ ERROR_NONE_TYPE = 'Arquivo invalido. verifique o tipo do documento.'
 ERROR_KEY = 'Chave incorreta'
 
 # Sucess Business #
-SUCESSO_GET = "Classificador OK."
-SUCESSO_PREDICT = "Classificacao realizada com sucesso."
+SUCESSO_GET = "Tradução OK."
+SUCESSO_PREDICT = "Tradução realizada com sucesso."
 SUCESSO_ENDPOINT = "Endpoints funcionando"
