@@ -8,8 +8,8 @@ import os
     não encontre nas variaveis de ambiente.
 """
 API_NAME = "Servico API"
-VERSION_API = '1.0.1'
-TITLE_API = "api-sentimentos"
+VERSION_API = '1.0.0'
+TITLE_API = "api-translate"
 DESCRIPTION_API = "API."
 
 # Flask settings
