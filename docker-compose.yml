@@ -2,8 +2,8 @@ version: "3"
 
 services:
   api-sentimentos:
-    container_name: api-sentimentos
-    image: api-sentimentos
+    container_name: api-translate
+    image: api-translate
     restart: unless-stopped
     build:
       context: .
