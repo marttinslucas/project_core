@@ -49,7 +49,7 @@ class translateService():
         logger.debug('Iniciando o tradutor...')
 
         response = []
-
-        response.append(self.translate(texts))
+        text_to_translate = self.translate(texts,dest="pt")
+        response.append(text_to_translate.text)
 
         return response
