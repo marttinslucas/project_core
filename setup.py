@@ -30,8 +30,7 @@ run_requirements = [
     'loguru==0.4.1',
     'numpy==1.18.5',
     'prometheus_client==0.8.0',
-    'vaderSentiment'
-    'jinja2==3.0.0'
+    'jinja2==3.0.0',
     'googletrans==4.0.0-rc.1'
 ]
 
