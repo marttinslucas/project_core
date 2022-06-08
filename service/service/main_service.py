@@ -45,11 +45,12 @@ class translateService():
         """
         Pega o modelo carregado e aplica em texts
         """
-        logger.debug('Iniciando o tradutor...')
-        response = []
 
-        for word in texts:
-            translate_dict = self.model.translate(word, dest='pt')
+        logger.debug('Iniciando o tradutor...')
+
+        response = []
+        for phrase in texts:
+            translate_dict = self.model.translate(phrase, dest='pt')
             response.append(translate_dict.text)
         
         return response
