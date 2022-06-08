@@ -7,7 +7,7 @@ Projeto que sobe um Container e, neste, uma API RESTful com o Swagger
  O objetivo da API é traduzir qualquer frase, de qualquer linguagem para português.
 
  ### Preview
- ![](swagger_ex.png)
+ ![](preview/swagger_ex.png)
 ## Getting Started
 
 Para executar a aplicação, basta compilar o Docker e executar o mesmo com os seguintes comandos
