@@ -5,7 +5,7 @@ info:
   title: AS Template Flask API
   description: 'Template flask padrão APIs REST..'
   contact:
-    email: patrick@ibm.com
+    email: lucas.martins.meireles@ibm.com
 
 schemes:
   - http
