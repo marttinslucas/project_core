@@ -6,7 +6,6 @@ from service.service.main_service import translateService
 from service.restplus import api, objResponse
 from service.constants import mensagens, codeHttp
 from service.util import doc_swagger
-
 pa = api.namespace("")
 
 
