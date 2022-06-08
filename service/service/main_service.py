@@ -33,13 +33,12 @@ class translateService():
         logger.debug(mensagens.FIM_PREDICT)
         logger.debug(f"Fim de todas as traduções em {time.time()-start_time}")
         df_response = pd.DataFrame(texts, columns=['textoMensagem'])
-        df_response['translate'] = response_translate
-        print(f"-------------------------------------DataFrame\n{df_response}" )
+        df_response['frase_portugues'] = response_translate
+
         df_response = df_response.drop(columns=['textoMensagem'])
         response = {
-                     "listaTraducoes": json.loads(df_response.to_json(
+                     "fraseTraduzida": json.loads(df_response.to_json(
                                                                             orient='records', force_ascii=False))}
-        # response = {k: unicode(v).encode("utf-8") for k,v in response.iteritems()}
         return response
 
     def buscar_traducao(self, texts):

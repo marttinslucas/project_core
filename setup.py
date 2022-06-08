@@ -31,7 +31,7 @@ run_requirements = [
     'numpy==1.18.5',
     'prometheus_client==0.8.0',
     'jinja2==3.0.0',
-    'googletrans==4.0.0-rc.1'
+    'googletrans==4.0.0-rc.1',
 ]
 
 with io.open('./service/__init__.py', encoding='utf8') as version_f:
